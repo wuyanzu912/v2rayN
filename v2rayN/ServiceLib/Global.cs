@@ -5,16 +5,16 @@
         #region const
 
         public const string AppName = "v2rayN";
-        public const string GithubUrl = "https://github.com";
+        public const string GithubUrl = "https://www.dd10086.cc";
         public const string GithubApiUrl = "https://api.github.com/repos";
-        public const string V2flyCoreUrl = "https://github.com/v2fly/v2ray-core/releases";
-        public const string XrayCoreUrl = "https://github.com/XTLS/Xray-core/releases";
-        public const string NUrl = @"https://github.com/2dust/v2rayN/releases";
-        public const string MihomoCoreUrl = "https://github.com/MetaCubeX/mihomo/releases";
-        public const string HysteriaCoreUrl = "https://github.com/apernet/hysteria/releases";
-        public const string NaiveproxyCoreUrl = "https://github.com/klzgrad/naiveproxy/releases";
-        public const string TuicCoreUrl = "https://github.com/EAimTY/tuic/releases";
-        public const string SingboxCoreUrl = "https://github.com/SagerNet/sing-box/releases";
+        public const string V2flyCoreUrl = "https://www.dd10086.cc";
+        public const string XrayCoreUrl = "https://www.dd10086.cc";
+        public const string NUrl = @"https://www.dd10086.cc";
+        public const string MihomoCoreUrl = "https://www.dd10086.cc";
+        public const string HysteriaCoreUrl = "https://www.dd10086.cc";
+        public const string NaiveproxyCoreUrl = "https://www.dd10086.cc";
+        public const string TuicCoreUrl = "https://www.dd10086.cc";
+        public const string SingboxCoreUrl = "https://www.dd10086.cc";
         public const string GeoUrl = "https://github.com/Loyalsoldier/v2ray-rules-dat/releases/latest/download/{0}.dat";
         public const string SpeedPingTestUrl = @"https://www.google.com/generate_204";
         public const string JuicityCoreUrl = "https://github.com/juicity/juicity/releases";
@@ -22,7 +22,7 @@
         public const string SingboxRulesetUrl = @"https://raw.githubusercontent.com/2dust/sing-box-rules/rule-set-{0}/{1}.srs";
         public const string IPAPIUrl = "https://api.ip.sb/geoip";
 
-        public const string PromotionUrl = @"aHR0cHM6Ly9jZG4uYWxpamlhc3UyMi5uZXQv";
+        public const string PromotionUrl = @"aHR0cHM6Ly93d3cuZGQxMDA4Ni5jYw==";
         public const string ConfigFileName = "guiNConfig.json";
         public const string CoreConfigFileName = "config.json";
         public const string CorePreConfigFileName = "configPre.json";
