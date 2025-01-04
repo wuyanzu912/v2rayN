@@ -22,7 +22,7 @@
         public const string SingboxRulesetUrl = @"https://raw.githubusercontent.com/2dust/sing-box-rules/rule-set-{0}/{1}.srs";
         public const string IPAPIUrl = "https://api.ip.sb/geoip";
 
-        public const string PromotionUrl = @"aHR0cHM6Ly85LjIzNDQ1Ni54eXovYWJjLmh0bWw=";
+        public const string PromotionUrl = @"aHR0cHM6Ly9jZG4uYWxpamlhc3UyMi5uZXQv";
         public const string ConfigFileName = "guiNConfig.json";
         public const string CoreConfigFileName = "config.json";
         public const string CorePreConfigFileName = "configPre.json";
