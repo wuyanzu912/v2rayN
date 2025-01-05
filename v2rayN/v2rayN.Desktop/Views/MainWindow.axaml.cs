@@ -365,11 +365,8 @@ namespace v2rayN.Desktop.Views
 
         private void MenuCheckUpdate_Click(object? sender, RoutedEventArgs e)
         {
-            // 使检查更新按钮点击事件失效
-            return;
-
-            // _checkUpdateView ??= new CheckUpdateView();
-            // DialogHost.Show(_checkUpdateView);
+            _checkUpdateView ??= new CheckUpdateView();
+            DialogHost.Show(_checkUpdateView);
         }
 
         private void MenuBackupAndRestore_Click(object? sender, RoutedEventArgs e)
