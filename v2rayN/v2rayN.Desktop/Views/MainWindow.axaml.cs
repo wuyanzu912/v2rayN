@@ -33,7 +33,7 @@ namespace v2rayN.Desktop.Views
             this.KeyDown += MainWindow_KeyDown;
             menuSettingsSetUWP.Click += menuSettingsSetUWP_Click;
             menuPromotion.Click += menuPromotion_Click;
-            menuCheckUpdate.Click -= MenuCheckUpdate_Click;
+            menuCheckUpdate.Click += MenuCheckUpdate_Click;
             menuBackupAndRestore.Click += MenuBackupAndRestore_Click;
             menuClose.Click += MenuClose_Click;
 

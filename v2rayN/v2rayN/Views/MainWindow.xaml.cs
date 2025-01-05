@@ -32,7 +32,7 @@ namespace v2rayN.Views
             menuSettingsSetUWP.Click += menuSettingsSetUWP_Click;
             menuPromotion.Click += menuPromotion_Click;
             menuClose.Click += menuClose_Click;
-            menuCheckUpdate.Click += MenuCheckUpdate_Click;
+            menuCheckUpdate.Click -= MenuCheckUpdate_Click;
             menuBackupAndRestore.Click += MenuBackupAndRestore_Click;
 
             MessageBus.Current.Listen<string>(EMsgCommand.SendSnackMsg.ToString()).Subscribe(DelegateSnackMsg);
