@@ -26,6 +26,8 @@ namespace v2rayN.Desktop.Views
         public MainWindow()
         {
             InitializeComponent();
+            // 禁用检查更新按钮
+            menuCheckUpdate.IsEnabled = false;
 
             _config = AppHandler.Instance.Config;
             _manager = new WindowNotificationManager(TopLevel.GetTopLevel(this)) { MaxItems = 3, Position = NotificationPosition.BottomRight };
